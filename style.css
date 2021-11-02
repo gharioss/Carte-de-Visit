@@ -1,0 +1,72 @@
+p
+{
+	font-size: 1em;
+}
+h1
+{
+	font-size: x-large;
+}
+body
+{
+	background-color: rgb(104,131,147);
+}
+h1{
+	font-style: italic;
+}
+h1
+{
+	border: 5px grey groove;
+	border-radius: 10px;
+	width: 185px;
+	background-color: rgb(104,131,147);
+	display: flex;
+	justify-content: center;
+}
+a
+{
+	text-decoration: none;
+	color: green;
+	font-style: italic;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: green;
+}
+a:active
+{
+    background-color: #FFCC66;
+}
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: #FFCC66;
+}
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #C60030; /* Appliquer une couleur grise */
+}
+.center
+{
+	display: flex;
+	justify-content: center;
+}
+.inside{
+	flex-direction:column;
+	align-items: center;
+	border: solid 1px rgb(80,100,112);
+	border-radius: 10px;
+	width: 60%;
+	background-color: rgb(80,100,112);
+}
+img
+{
+	width: 25%;
+	height: 35%;
+}
+.date{
+	font-style: italic;
+}
+.x{
+	font-size: larger;
+	font-weight: bold;
+}
